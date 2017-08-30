@@ -1,0 +1,34 @@
+1504071213913	geckodriver	INFO	geckodriver 0.18.0
+1504071213989	geckodriver	INFO	Listening on 127.0.0.1:60979
+1504071216001	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504071216933	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\SongJungwoo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1504071218078	Marionette	INFO	Listening on port 60988
+1504071218079	Marionette	INFO	Listening on port 60988
+1504071219116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504071219141	Marionette	DEBUG	loaded listener.js
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+1504071289982	geckodriver	INFO	geckodriver 0.18.0
+1504071290065	geckodriver	INFO	Listening on 127.0.0.1:61110
+1504071292045	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504071292736	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\SongJungwoo\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 17192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504071293957	Marionette	INFO	Listening on port 61118
+1504071293976	Marionette	INFO	Listening on port 61118
+1504071294061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504071294087	Marionette	DEBUG	loaded listener.js
+[GPU 17192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 17192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 17192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+Unable to read VR Path Registry from C:\Users\SongJungwoo\AppData\Local\openvr\openvrpaths.vrpath
