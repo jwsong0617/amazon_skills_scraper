@@ -3,9 +3,12 @@ library(ggplot2)
 setwd("./Documents/GitHub/amazon_skills_scraper")
 
 #read dataset
-skills = read.csv(file='datasets/skills_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
-reviews = read.csv(file='datasets/reviews_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
-comments = read.csv(file='datasets/comments_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+skills = read.csv(file='../datasets/processed/skills_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+reviews = read.csv(file='../datasets/processed/reviews_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+comments = read.csv(file='../datasets/processed/comments_processed_v01.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+skills = read.csv(file='../datasets/processed/skills_processed_game.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+reviews = read.csv(file='../datasets/processed/reviews_processed_game.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
+comments = read.csv(file='../datasets/processed/comments_processed_game.csv',header = TRUE, sep = ',' ,stringsAsFactors = FALSE,encoding = "utf-8")
 
 #preprocess
 skills$reviewNum = gsub(',', '', x = skills$reviewNum)
@@ -15,7 +18,9 @@ skills$reviewNum = skills$reviewNum %>% as.numeric()
 skills %>% head
 summary(skills)
 str(skills)
-arrange(skills, desc(rating))%>%  select(title, rating)
+summary(reviews)
+str(reviews)
+arrange(skills, desc(rating))%>%select(title, rating)
 skills$title
 
 #plotting
